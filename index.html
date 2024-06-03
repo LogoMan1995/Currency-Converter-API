@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/bank_icons.png" type="img/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Конвертация</title>
+</head>
+<body>
+    <input type="number" id="amount" placeholder="Введите сумму">
+<select id="from">
+  <option value="RUB">RUB</option>
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+</select>
+<select id="to">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="RUB">RUB</option>
+</select>
+<button onclick="convert()">Конвертировать</button>
+<p id="result"></p>
+<script src="script.js"></script>
+</body>
+</html>
